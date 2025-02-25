@@ -96,7 +96,7 @@ AND LENGTH(capital) > LENGTH(name);
 
 -- 4. REPLACE
 -- REPLACE(string, pattern 1, pattern 2)
--- string에서 pattern 1에 해당하는 모든 부분을 pattern 2로 치환환
+-- string에서 pattern 1에 해당하는 모든 부분을 pattern 2로 치환
 
 -- ex)
 SELECT name, REPLACE(capital, name, '') as extension FROM world
